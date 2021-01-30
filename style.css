@@ -27,13 +27,26 @@ h3 {
     color: #777;
 }
 
-.container form {
+.changes {
     width: 280px;
     position: absolute;
     top: 100px;
     left: 40px;
     transition: 0.5s;
+    overflow: hidden;
 }
+
+
+#form2 {
+    left: 450px;
+}
+
+
+#form3 {
+    left: 450px;
+}
+
+
 
 form input {
     width: 100%;
@@ -73,14 +86,7 @@ form button {
     overflow: hidden;
 }
 
-#form2 {
-    left: 450px;
-}
 
-
-#form3 {
-    left: 450px;
-}
 
 .step-row {
     width: 360px;
@@ -118,3 +124,4 @@ form button {
     top: 0;
     border-left: 20px solid #ffad06;
 }
+
